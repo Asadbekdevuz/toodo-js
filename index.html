@@ -15,19 +15,19 @@
      <form class="form">
       <div class="mb-3">
         <label for="exampleFormControlInput1" class="form-label">Name</label>
-        <input class="form-control  name__input" type="text"  id="exampleFormControlInput1" placeholder="Bill" required>
+        <input class="form-control  name__input" type="text"   min="4" id="exampleFormControlInput1" placeholder="Bill" required>
       </div>
       <div class="mb-3">
-        <label for="exampleFormControlTextarea1" class="form-label">Surname</label>
-        <input class="form-control sur__input" type="text"  id="exampleFormControlInput1" placeholder="Geyts" required>
+        <label for="exampleFormControlTextarea1" class="form-label"  >Surname</label>
+        <input class="form-control sur__input" type="text" max="20" min="6" id="exampleFormControlInput1" placeholder="Geyts" required>
       </div>
       <div class="mb-3">
         <label for="exampleFormControlInput1" class="form-label">Relative</label>
-        <input class="form-control rel__input" type="text"  id="exampleFormControlInput1" placeholder="paternal uncle" required>
+        <input class="form-control rel__input" type="text"  id="exampleFormControlInput1" placeholder="paternal uncle" max="12" min="3" required>
       </div>
       <div class="mb-3">
         <label for="exampleFormControlTextarea1" class="form-label">Phone</label>
-        <input class="form-control tel__input" type="number"   id="exampleFormControlInput1" placeholder="+998 90 123 45 67" required>
+        <input class="form-control tel__input" type="number"   id="exampleFormControlInput1" placeholder="+998 90 123 45 67" min="13" required>
       </div>
       <button class="btn btn-success " type="submit" >Submit</button>
      </form>
